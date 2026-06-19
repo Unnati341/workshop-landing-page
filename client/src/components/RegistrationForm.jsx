@@ -38,7 +38,7 @@ const handleSubmit = async (e) => {
     setMessage("");
 
     const response = await axios.post(
-  "http://localhost:5000/api/enquiry",
+  "https://workshop-landing-page-txyc.onrender.com/api/enquiry",
   formData
 );
 
