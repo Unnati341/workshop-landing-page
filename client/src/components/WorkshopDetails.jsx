@@ -11,7 +11,7 @@ const WorkshopDetails = () => {
     <section id="details" className="py-20">
       <h2 className="text-4xl font-bold text-center mb-12">
         Workshop Details
-      </h2>
+      </h2><br></br>
 
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-5 gap-6">
         {details.map((item, index) => (
